@@ -1,0 +1,16 @@
+{
+  "name": "Girnar Industries",
+  "short_name": "Girnar",
+  "description": "High Performance Paints and Industrial Chemical Solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e61e25",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100">
+  <!-- Blue g -->
+  <path d="M 55 25 V 75 C 55 85 45 95 35 95 C 25 95 20 90 20 85" fill="none" stroke="#0082c8" stroke-width="14" stroke-linecap="round" />
+  <circle cx="38" cy="45" r="17" fill="none" stroke="#0082c8" stroke-width="14" />
+  <!-- Red p -->
+  <path d="M 65 25 V 85" fill="none" stroke="#e61e25" stroke-width="14" stroke-linecap="round" />
+  <circle cx="82" cy="45" r="17" fill="none" stroke="#e61e25" stroke-width="14" />
+</svg>
