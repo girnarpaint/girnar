@@ -1359,8 +1359,20 @@
       animation: float 3s ease-in-out infinite;
     }
   </style>
+  <!-- Levitating WhatsApp Button -->
+  <a href="https://wa.me/919084884400" target="_blank" rel="noopener noreferrer"
+    class="fixed bottom-24 right-6 z-50 flex flex-col items-center justify-center group"
+    aria-label="Chat on WhatsApp">
+    <div
+      class="w-12 h-12 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg shadow-[#25D366]/40 group-hover:bg-[#128C7E] transition-colors relative border-2 border-white/20">
+      <svg class="w-6 h-6 text-white relative z-10" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12.031 0C5.385 0 .002 5.385.002 12.031c0 2.115.548 4.181 1.591 6.002L.031 24l6.111-1.603c1.765.952 3.754 1.455 5.889 1.455 6.645 0 12.029-5.383 12.029-12.029C24.06 5.384 18.676 0 12.031 0zm.001 21.848c-1.785 0-3.53-.478-5.06-1.385l-.363-.214-3.766.988.999-3.67-.235-.374a9.882 9.882 0 0 1-1.516-5.289c0-5.462 4.444-9.907 9.941-9.907 5.462 0 9.906 4.445 9.906 9.907 0 5.462-4.444 9.907-9.907 9.907zm5.426-7.417c-.297-.149-1.761-.871-2.033-.971-.271-.1-.47-.149-.668.149-.198.297-.768.971-.941 1.168-.173.198-.347.223-.644.074-.297-.149-1.258-.464-2.395-1.481-.884-.791-1.482-1.768-1.655-2.065-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.297-.495.1-.198.05-.371-.025-.52-.074-.149-.668-1.609-.916-2.203-.242-.579-.487-.501-.668-.51l-.57-.01c-.198 0-.52.074-.792.371-.272.297-1.04 1.015-1.04 2.476s1.065 2.872 1.213 3.07c.149.198 2.094 3.195 5.075 4.481.71.307 1.264.49 1.696.627.713.227 1.362.195 1.874.118.572-.086 1.761-.72 2.008-1.414.248-.694.248-1.288.173-1.414-.074-.124-.272-.198-.57-.347z"/>
+      </svg>
+    </div>
+  </a>
+
   <a href="/SHADE%20CARD%20GIRNARKOTE.pdf" download="SHADE_CARD_GIRNARKOTE.pdf"
-    class="fixed bottom-8 right-8 z-50 flex flex-col items-center justify-center animate-float group"
+    class="fixed bottom-10 right-6 z-50 flex flex-col items-center justify-center group"
     aria-label="Download Shade Card">
     <div
       class="w-12 h-12 bg-[#0082c8] rounded-full flex items-center justify-center shadow-lg shadow-[#0082c8]/40 group-hover:bg-[#006096] transition-colors relative border-2 border-white/20">
@@ -1370,10 +1382,10 @@
       </svg>
       <!-- Persistent Tooltip Label -->
       <span
-        class="absolute -top-9 bg-gray-900 text-white text-[10px] font-semibold rounded py-1 px-2 whitespace-nowrap pointer-events-none shadow-md tracking-wider">
+        class="absolute -bottom-10 bg-gray-900 text-white text-[10px] font-semibold rounded py-1 px-2 whitespace-nowrap pointer-events-none shadow-md tracking-wider animate-pulse" style="animation-duration: 4s;">
         Shade Card
         <span
-          class="absolute bottom-[-3px] left-1/2 transform -translate-x-1/2 w-1.5 h-1.5 bg-gray-900 rotate-45"></span>
+          class="absolute top-[-3px] left-1/2 transform -translate-x-1/2 w-1.5 h-1.5 bg-gray-900 rotate-45"></span>
       </span>
     </div>
   </a>
